@@ -1,0 +1,30 @@
+time{
+    writing-mode: sideways-lr;
+}
+button{
+    background: linear-gradient(#e66465, #9198e5);
+}
+blockquote p{
+    column-count: 5;
+    column-rule: 1px black solid;
+}
+blockquote{
+    border-image:
+            url("https://mdn.mozillademos.org/files/4127/border.png")  /* source */
+            27 /                    /* slice */
+            12px 12px 12px 12px /    /* width */
+            2px 2px 2px 2px       /* outset */
+            round;                  /* repeat */
+
+    font-size: 20px;
+}
+table{
+    box-shadow: inset 3px 3px 5px rgba(230, 100, 120, 15);
+}
+input{
+    background: radial-gradient(#e66465, #9198e5);
+}
+
+body{
+    background-color: mistyrose;
+}
